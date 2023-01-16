@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html,body{
+    margin: 0 0;
+    background: linear-gradient(to right, rgb(134, 239, 172), rgb(59, 130, 246), rgb(147, 51, 234));
+    font-family: 'Montserrat';
+}
+
+.main{
+    margin: 12px 12px;
+    padding: 8px 8px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 75vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+  
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    font-size: larger;
+}
+
+.text{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+}
+
+.section p{
+    width: fit-content;
+    padding: 8px 8px;
+    margin: 12px 12px;
+}
+
+.hero{
+    padding:32px;
+    margin-top: auto;
+}
