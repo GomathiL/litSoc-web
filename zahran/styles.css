@@ -1,0 +1,96 @@
+.glasswindow {
+  display: flex;
+  flex-direction: column;
+  background: rgba(185, 185, 185, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.4px);
+  -webkit-backdrop-filter: blur(4.4px);
+  border: 1px solid rgba(185, 185, 185, 0.3);
+  height: 80%;
+  width: 70%;
+  padding: 5px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body
+{
+    margin: 0px;
+}
+h1
+{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 90%;
+  width: fit-content;
+  margin: 12px auto;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.171);
+}
+
+h2
+{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 90%;
+  width: 100%;
+  text-align: center;
+}
+
+.background-image {
+  background: #8a2387;
+  background: linear-gradient(320deg, #f27121, #e94057, #8a2387);
+  height: 100%;
+  width: 100%;
+}
+
+.about-us
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.info
+{
+  font-size: 13pt;
+  color: white;
+  opacity: 80%;
+  word-spacing: .3pt;
+}
+
+.image-box
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+.person-desc
+{
+  width: 20%;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+
+.person-desc>p{
+  opacity: 80%;
+  font-size: medium;
+}
